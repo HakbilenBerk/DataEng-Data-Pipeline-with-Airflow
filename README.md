@@ -6,7 +6,7 @@ A project to create high grade data pipelines that are dynamic and built from re
 
 The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
-![Airflow DAG](images/main-dag.png)
+![Airflow DAG](/images/main-dag.png)
 
 
 
