@@ -63,7 +63,7 @@ docker-compose up
 #### Check the Airflow UI
 Go to http://localhost:8080
 
-Username: airflow_user 
+Username: user 
 
 Password: password
 
