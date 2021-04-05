@@ -6,9 +6,7 @@ A project to create high grade data pipelines that are dynamic and built from re
 
 The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
-![ScreenShot](/images/main-dag.png)
-
-
+![DAG](/images/main-dag.png)
 
 
 ## Project Directory Structure
@@ -70,7 +68,8 @@ Password: password
 #### Configure Airflow connections for AWS and Redshift
 
 1. Click on the Admin tab and select Connections.
-![ScreenShot](images/connections.png)
+2. 
+![connecitons](images/connections.png)
 
 2. Under Connections, select Create.
 
@@ -79,7 +78,9 @@ Password: password
 - Conn Type: Enter Amazon Web Services.
 - Login: Enter your Access key ID from the IAM User credentials.
 - Password: Enter your Secret access key from the IAM User credentials.
-![ScreenShot](images/connections_detail.png)
+- 
+![aws_credentials](images/connections_detail.png)
+
 Once you've entered these values, select Save and Add Another.
 
 4. On the next create connection page, enter the following values:
@@ -89,7 +90,7 @@ Once you've entered these values, select Save and Add Another.
 - Schema: Enter the Redshift database you want to connect to.
 - Password: Enter the password you created when launching your Redshift cluster.
 - Port: Enter 5439.
-![ScreenShot](images/connections_detail_redshift.png)
+![redshift_details](images/connections_detail_redshift.png)
 Once you've entered these values, select Save.
 
 #### Start the DAG
