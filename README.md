@@ -1,5 +1,7 @@
 # Airflow Data Pipeline for AWS S3 -> Redshift
 
+**Project by Berk Hakbilen**
+
 ## Introduction
 
 A project to create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills.
